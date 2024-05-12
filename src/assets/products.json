@@ -1,0 +1,37 @@
+[
+	{
+    "id": 1,
+	"name": "Obélix",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit repudiandae iste saepe vitae quas impedit sunt quod, blanditiis quasi obcaecati consequatur cupiditate aliquid animi.",
+	"url": "../../assets/images-products/obelix.jpg",
+    "dimensions": "18cm",
+	"price": "19,99 €"
+	}
+	,
+	{
+    "id": 2,
+	"name": "Astérix",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit repudiandae iste saepe vitae quas impedit sunt quod, blanditiis quasi obcaecati consequatur cupiditate aliquid animi.",
+	"url": "../../assets/images-products/asterix.jpg",
+    "dimensions": "18cm",
+	"price": "14,99 €"
+	}
+    ,
+    {
+    "id": 3,
+    "name": "Panoramix",
+    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit repudiandae iste saepe vitae quas impedit sunt quod, blanditiis quasi obcaecati consequatur cupiditate aliquid animi.",
+    "url": "../../assets/images-products/panoramix.jpg",
+    "dimensions": "17cm",
+    "price": "15,99 €"
+    }
+    ,
+    {
+    "id": 4,
+    "name": "Obélix, Astérix & Panoramix",
+    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit repudiandae iste saepe vitae quas impedit sunt quod, blanditiis quasi obcaecati consequatur cupiditate aliquid animi.",
+    "url": "../../assets/images-products/asterix-obelix-panoramix.jpg",
+    "dimensions": "18cm x 18cm x 17cm",
+    "price": "48.99 €"
+    }
+]

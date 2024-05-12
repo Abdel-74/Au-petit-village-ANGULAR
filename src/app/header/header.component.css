@@ -1,0 +1,40 @@
+header {
+    background-color: #DA001E;
+    color: #ecf0f1;
+    padding: 15px 10%;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px  #FDD90B;
+}
+/* NAVBAR */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    color: #ecf0f1;
+    font-size: 1.2em;
+}

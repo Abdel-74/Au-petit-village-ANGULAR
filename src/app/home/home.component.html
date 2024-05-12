@@ -1,0 +1,42 @@
+<div class="container">
+    <section>
+        <h1>{{title}}</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit repudiandae 
+            iste saepe vitae quas impedit sunt quod, blanditiis quasi obcaecati consequatur 
+            cupiditate aliquid animi, omnis facilis voluptate...
+        </p>
+        <a routerLink="/about">
+            <button class="bouton">En savoir plus</button>
+        </a>
+    </section>
+
+    <section>
+        <h2>Nos figurines</h2>
+        <div class="options">
+            <div class="sort-options">
+                <label>Trier par prix :</label>
+                <input type="radio" name="sortOrder" [(ngModel)]="selectedSortOrder" value="asc" />Croissant 
+                <input type="radio" name="sortOrder" [(ngModel)]="selectedSortOrder" value="desc" />Décroissant   
+            </div>
+            <div class="search-options">
+                <input type="search" id="site-search" [(ngModel)]="searchTerm" (input)="search()"/>
+                <button (click)="search()">Search</button>
+            </div>
+        </div>
+                
+        <div class="product-row">
+            <div class="product" *ngFor="let product of products | sortByPrice:selectedSortOrder | productSearch:searchTerm">
+                <a [routerLink]="['/product', product.id]">
+                    <img [src]="product.url" alt="{{ product.name }}">
+                </a>
+                <div>
+                    <h3>{{ product.name }}</h3>
+                    <p>Dimensions: {{ product.dimensions }}</p>
+                    <p>Prix: {{ product.price }}</p>
+                </div>
+            </div>
+        </div>
+          
+    </section>
+</div>
